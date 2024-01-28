@@ -1,6 +1,6 @@
 @White: hsl(0, 0%, 100%);
 @Light-gray: hsl(212, 45%, 89%);
-@Grayish-blue: hsl(220, 15%, 55%);
+@black: hsl(210, 6%, 7%);
 @Dark-blue: hsl(218, 44%, 22%);
 @baseFont:'Outfit',sans-serif;
 @textFontSize:15px;
@@ -15,7 +15,7 @@ html {
 }
 
 body {
-  background-color: @Grayish-blue;
+  background-color: @Light-gray;
   font-family: @baseFont;
   font-size: @textFontSize;
   font-weight: 400;
@@ -48,15 +48,13 @@ body {
   }
 }
 
-.text {
-  .title {
-    margin-bottom: 12px;
-    color: @Dark-blue;
-  }
-  .description {
-    color: @Light-gray;
-    font-weight: 700;
-  }
+.title {
+  margin-bottom: 12px;
+  color: @Dark-blue;
+}
+.description {
+  color: @black;
+  font-weight: 700;
 }
 
 

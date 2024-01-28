@@ -9,7 +9,7 @@ html {
   padding: 0;
 }
 body {
-  background-color: hsl(220, 15%, 55%);
+  background-color: hsl(212, 45%, 89%);
   font-family: 'Outfit', sans-serif;
   font-size: 15px;
   font-weight: 400;
@@ -39,12 +39,12 @@ body {
   text-align: center;
   padding: 24px 15px;
 }
-.text .title {
+.title {
   margin-bottom: 12px;
   color: hsl(218, 44%, 22%);
 }
-.text .description {
-  color: hsl(212, 45%, 89%);
+.description {
+  color: hsl(210, 6%, 7%);
   font-weight: 700;
 }
 .attribution {
