@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&family=Young+Serif&display=swap');
+
+:root {
+  /* Primary */
+
+  --Nutmeg: hsl(14, 45%, 36%);
+  --Dark-Raspberry: hsl(332, 51%, 32%);
+
+  /* Neutral */
+  --White: hsl(0, 0%, 100%);
+  --Rose-White: hsl(330, 100%, 98%);
+  --Eggshell: hsl(30, 54%, 90%);
+  --Light-Grey: hsl(30, 18%, 87%);
+  --Wenge-Brown: hsl(30, 10%, 34%);
+  --Dark-Charcoal: hsl(24, 5%, 18%);
+
+  --border-radius-lg: .875rem;
+  --border-radius-sm: .5rem;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  line-height: 1.5;
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: 'Outfit', serif;
+  min-height: 100vh;
+  background-color: var(--Eggshell);
+  max-width: 375px;
+  margin: 2rem auto;
+}
+
+h1,
+h2 {
+  font-family: 'Young serif', serif;
+  font-weight: 700;
+}
+
+h1 {
+  color: var(--Dark-Charcoal);
+}
+
+h2 {
+  color: var(--Nutmeg);
+}
+
+h3 {
+  color: var(--Dark-Raspberry);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+ul {
+  padding: inherit;
+  margin: inherit;
+}
+
+#wrapper {
+  background-color: var(--White);
+  padding: 1.75rem;
+  border-radius: var(--border-radius-lg);
+}
+
+#introduction img {
+  border-radius: var(--border-radius-sm);
+}
+
+#preparation {
+  background-color: var(--Rose-White);
+  border-radius: var(--border-radius-sm);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
