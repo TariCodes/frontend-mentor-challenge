@@ -14,7 +14,7 @@
   --Wenge-Brown: hsl(30, 10%, 34%);
   --Dark-Charcoal: hsl(24, 5%, 18%);
 
-  --border-radius-lg: .875rem;
+  --border-radius-lg: 1.5rem;
   --border-radius-sm: .5rem;
 }
 
@@ -39,7 +39,7 @@ body {
   min-height: 100vh;
   background-color: var(--Eggshell);
   color: var(--Dark-Charcoal);
-  max-width: 700px;
+  max-width: 800px;
   margin: 2rem auto;
 }
 
@@ -47,19 +47,23 @@ h1,
 h2 {
   font-family: 'Young serif', serif;
   font-weight: 700;
+  letter-spacing: 1.2px;
 }
 
 h1 {
   color: var(--Dark-Charcoal);
-  margin: 1.75rem 0;
+  margin: 1.250rem 0;
 }
 
 h2 {
   color: var(--Nutmeg);
+  padding-bottom: .50rem;
 }
 
 h3 {
   color: var(--Dark-Raspberry);
+  margin-bottom: .5rem;
+  font-weight: 700;
 }
 
 img {
@@ -70,13 +74,32 @@ img {
 ul,
 ol {
   padding: 0;
-  list-style: none;
+  display: block;
+  margin-left: 1.25rem;
+  line-height: inherit;
+}
+
+ul li::marker,
+ol li::marker {
+  color: var(--Nutmeg);
+}
+
+li {
+  padding-bottom: .50rem;
+  padding-left: 1rem;
 }
 
 #wrapper {
   background-color: var(--White);
-  padding: 1.75rem;
+  padding: 2.25rem;
   border-radius: var(--border-radius-lg);
+  margin: 0 1.75rem;
+  margin-bottom: 3rem;
+  box-shadow: 0 1px 2px var(--White);
+}
+
+#introduction {
+  margin-bottom: 1.96rem;
 }
 
 #introduction img {
@@ -86,6 +109,53 @@ ol {
 #preparation {
   background-color: var(--Rose-White);
   border-radius: var(--border-radius-sm);
+  padding: 1.5rem 2.35rem;
+  margin-bottom: 1.50rem;
+}
+
+
+#preparation li::marker {
+  color: var(--Dark-Raspberry);
+}
+
+#ingredient {
+  margin-bottom: 2rem;
+}
+
+#ingredient ul {
+  list-style-type: square;
+}
+
+#instruction,
+#nutrition {
+  margin: 2rem 0;
+}
+
+#nutrition p {
+  margin-bottom: 1.30rem;
+}
+
+span {
+  color: var(--Nutmeg);
+}
+
+.food-calories-wrapper {
+  width: 100%;
+
+}
+
+tr {
+  display: block;
+  border-bottom: 1px solid var(--Light-Grey);
+  padding: .80rem 0;
+}
+
+tr:last-child {
+  border-bottom: none;
+}
+
+.calory-name {
+  padding-left: 1.85rem;
 }
 
 .attribution {
