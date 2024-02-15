@@ -21,7 +21,6 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ![QRCode Component](screenshot/Screenshot-FrontendMentorQRcodeComponent.png)
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
 
 ### Links
 
@@ -39,15 +38,15 @@ Add a screenshot of your solution. The easiest way to do this is to use Firefox 
 
 ### What I learned
 
-I learned how to markup contents using semantic html tag, styling it with LESS, although, I am new learning the LESS language it helps me construct and understand CSS better.
+I learned how to markup contents using semantic html tag, styling it with LESS, although, I am new learning the LESS preprocessor as it helps me construct and understand CSS better.
 
 ### Continued development
 
-I struggle coming up with naming classes and id's, but I do wish to learn about structuring the page and contents semantically and improve in LESS cause I kinda love working with it, and in the future dive deep into learning TailwindCSS
+I do struggle coming up with naming classes and id's, but I do wish to learn about structuring the page and contents semantically and improve in LESS.
 
 ### Useful resources
 
-- [Mr Coder tutorial](https://www.youtube.com/watch?v=5BBYPntB-GY&t=504s) - This tutorial helped me in accomplishing this challenge.
+- [Mr Coder](https://www.youtube.com/watch?v=5BBYPntB-GY&t=504s) - This tutorial helped me in accomplishing this challenge.
 
 
 ## Author
