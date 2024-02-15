@@ -22,8 +22,8 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/TariCodes/frontend-mentor-challenge/tree/main/recipe-page-main)
-- Live Site URL: [Add live site URL here](https://taricodes-recipe-page.netlify.app)
+- Solution URL: [https://github.com/TariCodes/frontend-mentor-challenge/tree/main/recipe-page-main](https://github.com/TariCodes/frontend-mentor-challenge/tree/main/recipe-page-main)
+- Live Site URL: [https://taricodes-recipe-page.netlify.app](https://taricodes-recipe-page.netlify.app)
 
 ## My process
 
