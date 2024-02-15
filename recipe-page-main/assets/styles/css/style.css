@@ -16,6 +16,8 @@
 
   --border-radius-lg: 1.5rem;
   --border-radius-sm: .5rem;
+
+  --section-padding: 2rem;
 }
 
 html {
@@ -43,6 +45,10 @@ body {
   margin: 2rem auto;
 }
 
+.container {
+  padding: 0 var(--section-padding);
+}
+
 h1,
 h2 {
   font-family: 'Young serif', serif;
@@ -52,7 +58,7 @@ h2 {
 
 h1 {
   color: var(--Dark-Charcoal);
-  margin: 1.250rem 0;
+  margin: .80rem 0;
 }
 
 h2 {
@@ -91,19 +97,23 @@ li {
 
 #wrapper {
   background-color: var(--White);
-  padding: 2.25rem;
-  border-radius: var(--border-radius-lg);
   margin: 0 1.75rem;
   margin-bottom: 3rem;
   box-shadow: 0 1px 2px var(--White);
+  border-radius: var(--border-radius-lg);
+}
+
+.featured-img {
+  padding: var(--section-padding);
+  padding-bottom: 0;
+}
+
+.featured-img img {
+  border-radius: var(--border-radius-sm);
 }
 
 #introduction {
   margin-bottom: 1.96rem;
-}
-
-#introduction img {
-  border-radius: var(--border-radius-sm);
 }
 
 #preparation {
@@ -113,9 +123,12 @@ li {
   margin-bottom: 1.50rem;
 }
 
-
 #preparation li::marker {
   color: var(--Dark-Raspberry);
+}
+
+#preparation li span {
+  font-weight: 700;
 }
 
 #ingredient {
@@ -135,19 +148,19 @@ li {
   margin-bottom: 1.30rem;
 }
 
-span {
-  color: var(--Nutmeg);
-}
-
-.food-calories-wrapper {
+.food-nutrition-table {
   width: 100%;
-
 }
 
 tr {
   display: block;
   border-bottom: 1px solid var(--Light-Grey);
   padding: .80rem 0;
+}
+
+tr>* {
+  width: 300px;
+  margin-right: auto;
 }
 
 tr:last-child {
@@ -158,6 +171,14 @@ tr:last-child {
   padding-left: 1.85rem;
 }
 
+.calory-amount {
+  font-weight: 700
+}
+
+.calory-amount span {
+  color: var(--Nutmeg);
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
@@ -165,4 +186,23 @@ tr:last-child {
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media screen and (max-width:540px) {
+  body {
+    margin: 0%;
+  }
+
+  #wrapper {
+    margin: 0;
+    border-radius: 0%;
+  }
+
+  .featured-img {
+    padding: 0;
+  }
+
+  .featured-img img {
+    border-radius: 0%;
+  }
 }
