@@ -24,6 +24,12 @@ html {
 
 body {
   font-family: "Kumbh Sans", serif;
+  font-size: 1rem;
+}
+
+img {
+  display: block;
+  max-width: 100%;
 }
 
 .attribution {
