@@ -1,62 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Profile card component</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
-  <link rel="stylesheet" href="style.css">
-  <style>
-  </style>
-</head>
+    <title>Frontend Mentor | Profile card component</title>
 
-<body>
-  <main>
+    <link rel="stylesheet" href="style.css" />
+    <style></style>
+  </head>
 
-    <header>
-      <figure>
-        <img src="./images/image-victor.jpg" alt="A black American male figure">
-      </figure>
+  <body>
+    <main class="card-wrapper">
+      <header>
+        <figure class="avatar-wrapper">
+          <img
+            src="./images/image-victor.jpg"
+            alt="A black American male figure"
+          />
+        </figure>
 
-      <h1>
-        Victor Crest
-        <span>26</span>
-      </h1>
+        <div class="profile-details">
+          <h1>
+            <span class="user__name">Victor Crest</span>
+            <span class="user__age">26</span>
+          </h1>
+          <p>
+            <span>London</span>
+          </p>
+        </div>
+      </header>
 
-      <h2>
-        <span>London</span>
-      </h2>
-    </header>
+      <section class="stats">
+        <div>
+          <p><span class="count">80K</span> <span class="txt-md">Followers</span></p>
+        </div>
 
-    <hr>
+        <div>
+          <p><span class="count">803K</span> <span class="txt-md">Likes</span></p>
+        </div>
 
-    <section>
-      <div>
-        80K
-        <span>Followers</span>
+        <div>
+          <p><span class="count">1.4K</span> <span class="txt-md">Photos</span></p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Godbless Ikadoi</a>.
       </div>
-
-      <div>
-        803K
-        <span>Likes</span>
-      </div>
-
-      <div>
-        1.4K
-        <span>Photos</span>
-      </div>
-    </section>
-  </main>
-
-  <footer>
-    <div class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-      Coded by <a href="#">Godbless Ikadoi</a>.
-    </div>
-  </footer>
-</body>
-
+    </footer>
+  </body>
 </html>
