@@ -102,6 +102,7 @@ h1 {
 
 .count {
   color: var(--Very-dark-desaturated-blue);
+  font-size: 1.15rem;
   display: block;
 }
 
