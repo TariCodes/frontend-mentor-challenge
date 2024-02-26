@@ -14,7 +14,7 @@
   --Very-dark-desaturated-blue: hsl(229, 23%, 23%);
   --Dark-grayish-blue: hsl(227, 10%, 46%);
   --clr-white: hsl(0, 18%, 100%);
-  --clr-black:hsl(0, 3%, 6%);
+  --clr-black: hsl(0, 3%, 6%);
 
   /* Neutral clr */
   --Dark-gray: hsl(0, 0%, 59%);
@@ -39,15 +39,15 @@ body {
   padding-bottom: 1.1rem;
   place-items: center;
   text-align: center;
-  background:  var(--Dark-cyan);
+  background: var(--Dark-cyan);
   color: var(--Dark-grayish-blue);
 }
 
 .card-wrapper {
   max-width: 500px;
   margin: 0 auto;
-  background:var(--clr-white) url(images/bg-pattern-card.svg) no-repeat top/contain
-    ;
+  background: var(--clr-white) url(images/bg-pattern-card.svg) no-repeat
+    top/contain;
   border-radius: 0.87rem;
   padding-top: 5rem;
 }
@@ -72,12 +72,16 @@ h1 {
 
 .user__name {
   color: var(--Very-dark-desaturated-blue);
-  margin-right: 0.4rem;
+  margin-right: 0.3rem;
 }
 
 .user__age {
   font-weight: 400;
-  font-size: 1.1rem;
+  font-size: 0.96rem;
+}
+
+.profile-details p {
+  font-size: 0.86rem;
 }
 
 .stats {
@@ -104,6 +108,7 @@ h1 {
 .txt-md {
   font-size: 0.65rem;
   font-weight: 400;
+  letter-spacing: 1.4px;
 }
 
 footer {
