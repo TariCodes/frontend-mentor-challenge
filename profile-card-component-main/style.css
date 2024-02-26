@@ -13,6 +13,8 @@
   --Dark-cyan: hsl(185, 75%, 39%);
   --Very-dark-desaturated-blue: hsl(229, 23%, 23%);
   --Dark-grayish-blue: hsl(227, 10%, 46%);
+  --clr-white: hsl(0, 18%, 100%);
+  --clr-black:hsl(0, 3%, 6%);
 
   /* Neutral clr */
   --Dark-gray: hsl(0, 0%, 59%);
@@ -22,14 +24,90 @@ html {
   font-size: 18px;
 }
 
-body {
-  font-family: "Kumbh Sans", serif;
-  font-size: 1rem;
-}
-
 img {
   display: block;
   max-width: 100%;
+}
+
+body {
+  position: relative;
+  font-family: "Kumbh Sans", serif;
+  font-size: 1rem;
+  min-height: 100dvh;
+  display: grid;
+  grid-template-rows: 1fr auto;
+  padding-bottom: 1.1rem;
+  place-items: center;
+  text-align: center;
+  background:  var(--Dark-cyan);
+  color: var(--Dark-grayish-blue);
+}
+
+.card-wrapper {
+  max-width: 500px;
+  margin: 0 auto;
+  background:var(--clr-white) url(images/bg-pattern-card.svg) no-repeat top/contain
+    ;
+  border-radius: 0.87rem;
+  padding-top: 5rem;
+}
+
+.avatar-wrapper img {
+  width: 100px;
+  border-radius: 50%;
+  margin: auto;
+  border: 4px solid var(--clr-white);
+  object-fit: cover;
+}
+
+.profile-details {
+  margin-block: 1.2rem;
+}
+
+h1 {
+  font-size: 1.125rem;
+  font-weight: 700;
+  margin-bottom: 0.56rem;
+}
+
+.user__name {
+  color: var(--Very-dark-desaturated-blue);
+  margin-right: 0.4rem;
+}
+
+.user__age {
+  font-weight: 400;
+  font-size: 1.1rem;
+}
+
+.stats {
+  display: grid;
+  display: -moz-grid;
+  display: -ms-grid;
+  border-top: 1px solid var(--Dark-gray);
+  grid-template-columns: repeat(3, 100px);
+  gap: 1.5rem;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.stats p {
+  font-size: 0.875rem;
+  font-weight: 700;
+}
+
+.count {
+  color: var(--Very-dark-desaturated-blue);
+  display: block;
+}
+
+.txt-md {
+  font-size: 0.65rem;
+  font-weight: 400;
+}
+
+footer {
+  color: var(--clr-black);
 }
 
 .attribution {
