@@ -12,9 +12,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -24,7 +22,8 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Desktop view](images/screenshot/Screenshot-Frontend-Mentor-Profile-card-desktop.png)
+![Mobile View](images/screenshot/Screenshot-Frontend-Mentor-Profile-card-mobile.png)
 
 ### Links
 
@@ -49,7 +48,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 I'd like to advance my skills in css grid and get a grip on the various properties such as the place-item property
 
-```
+``` css
 content {
   place-items: center;
 }
@@ -58,5 +57,5 @@ content {
 ## Author
 
 - LinkedIn - [Godbless Ikadoi](https://www.linkedin.com/in/godbless-ikadoi-b61b042b0)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@TariCodes](https://www.frontendmentor.io/profile/@TariCodes)
 - Twitter - [@TariCodes](https://www.twitter.com/TariCodes)
