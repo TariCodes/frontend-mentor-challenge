@@ -39,7 +39,9 @@ body {
   padding-bottom: 1.1rem;
   place-items: center;
   text-align: center;
-  background: var(--Dark-cyan);
+  background: url(images/bg-pattern-top.svg) -30% -400px/800px,
+    url(images/bg-pattern-bottom.svg) 125% 350px/800px, var(--Dark-cyan);
+  background-repeat: no-repeat;
   color: var(--Dark-grayish-blue);
 }
 
@@ -122,4 +124,12 @@ footer {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    background: url(images/bg-pattern-top.svg) 150% -400px/800px,
+      url(images/bg-pattern-bottom.svg) -40% 350px/800px, var(--Dark-cyan);
+    background-repeat: no-repeat;
+  }
 }
