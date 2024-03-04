@@ -23,6 +23,23 @@ html {
 body {
   font-family: "Figtree", sans-serif;
   font-weight: 500;
+  background: var(--clr-yellow);
+  display: grid;
+  grid-template-rows: 1fr auto;
+  place-items: center;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+.card-wrapper {
+  background: var(--clr-white);
+  width: 452px;
+  padding: 0.85rem;
+  border: 1px solid var(--clr-black);
+  border-radius: 0.5rem;
 }
 
 .attribution {
