@@ -45,5 +45,6 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@TariCodes](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@TariCodes](https://www.frontendmentor.io/profile/@TariCodes)
 - Twitter - [@TariCodes](https://www.twitter.com/@TariCodes)
+-LinkedIn - [Godbless Ikadoi](https://www.linkedin.com/in/godbless-ikadoi-b61b042b0)
