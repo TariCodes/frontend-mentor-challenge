@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,500;1,500,800;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap");
 
 :root {
   --clr-yellow: hsl(47, 88%, 63%);
@@ -31,6 +31,7 @@ body {
   align-items: center;
   justify-content: center;
   gap: 2.6rem;
+  padding: 0 2rem;
 }
 
 img {
@@ -45,7 +46,7 @@ img {
   padding: 1.75rem 1.5rem;
   border: 1px solid var(--clr-black);
   border-radius: 0.95rem;
-  box-shadow: 8px 4px var(--clr-black);
+  box-shadow: 10px 6px var(--clr-black);
 }
 
 .illustration-image {
@@ -58,6 +59,7 @@ h4 {
   padding: 0.55rem;
   display: inline-block;
   font-size: 0.85em;
+  font-weight: 800;
   margin-bottom: 0.8rem;
 }
 
@@ -69,6 +71,17 @@ h1 {
   margin-bottom: 0.65em;
   font-size: 1.5rem;
   font-weight: 800;
+}
+
+h1 a {
+  text-decoration: none;
+  color: var(--clr-black);
+}
+
+h1 a:hover,
+h1 a:focus {
+  color: var(--clr-yellow);
+  cursor: pointer;
 }
 
 h1 + p {
@@ -83,7 +96,7 @@ h1 + p {
 }
 
 .user span {
-  font-weight: 600;
+  font-weight: 800;
   font-size: 0.85rem;
 }
 
