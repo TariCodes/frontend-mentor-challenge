@@ -23,10 +23,14 @@ html {
 body {
   font-family: "Figtree", sans-serif;
   font-weight: 500;
+  min-height: 100dvh;
+  line-height: 1.4;
   background: var(--clr-yellow);
-  display: grid;
-  grid-template-rows: 1fr auto;
-  place-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2.6rem;
 }
 
 img {
@@ -36,10 +40,56 @@ img {
 
 .card-wrapper {
   background: var(--clr-white);
-  width: 452px;
-  padding: 0.85rem;
+  max-width: 425px;
+  margin: 0 auto;
+  padding: 1.75rem 1.5rem;
   border: 1px solid var(--clr-black);
-  border-radius: 0.5rem;
+  border-radius: 0.95rem;
+  box-shadow: 8px 4px var(--clr-black);
+}
+
+.illustration-image {
+  border-radius: 0.65rem;
+  margin-bottom: 1.5rem;
+}
+
+h4 {
+  background: var(--clr-yellow);
+  padding: 0.55rem;
+  display: inline-block;
+  font-size: 0.85em;
+  margin-bottom: 0.8rem;
+}
+
+h4 + p {
+  margin-bottom: 0.95rem;
+}
+
+h1 {
+  margin-bottom: 0.65em;
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+h1 + p {
+  color: var(--clr-grey);
+  margin-bottom: 1.25em;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+}
+
+.user span {
+  font-weight: 600;
+  font-size: 0.85rem;
+}
+
+.img-avatar {
+  width: 30px;
+  display: inline-block;
 }
 
 .attribution {
