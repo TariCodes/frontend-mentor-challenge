@@ -4,17 +4,13 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 
 ## Table of contents
 
-- [Overview](#overview) 
+- [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -47,4 +43,4 @@ Users should be able to:
 
 - Frontend Mentor - [@TariCodes](https://www.frontendmentor.io/profile/@TariCodes)
 - Twitter - [@TariCodes](https://www.twitter.com/@TariCodes)
--LinkedIn - [Godbless Ikadoi](https://www.linkedin.com/in/godbless-ikadoi-b61b042b0)
+- LinkedIn - [Godbless Ikadoi](https://www.linkedin.com/in/godbless-ikadoi-b61b042b0)
