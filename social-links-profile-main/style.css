@@ -18,6 +18,13 @@
 
 html {
   font-size: 14px;
+  font-weight: 400;
+}
+
+body {
+  background: var(--clr-off-Black);
+  color: var(--clr-white);
+  min-height: 100vh;
 }
 
 .attribution {
