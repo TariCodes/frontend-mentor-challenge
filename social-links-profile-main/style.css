@@ -32,7 +32,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 3rem;
+  gap: 2.25rem;
 }
 
 ul {
@@ -94,19 +94,24 @@ p {
   margin-top: 24px;
 }
 
-.social-links-wrapper li {
-  background: var(--clr--grey);
-  margin-bottom: 14px;
-  border-radius: 7px;
-  padding: 12px 24px;
-}
-
 .social-links-wrapper li:last-child {
   margin-bottom: 0;
 }
 
 .social-links-wrapper a {
   font-weight: 800;
+  background: var(--clr--grey);
+  margin-bottom: 14px;
+  border-radius: 7px;
+  padding: 12px 24px;
+  display: block;
+  transition: all 6ms ease-in-out;
+}
+
+.social-links-wrapper a:hover {
+  background-color: var(--green);
+  color: var(--clr-off-Black);
+  cursor: pointer;
 }
 
 .attribution {
