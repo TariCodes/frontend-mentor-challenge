@@ -29,7 +29,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [github.com/TariCodes/frontend-mentor-challenge/tree/main/social-links-profile-main](https://github.com/TariCodes/frontend-mentor-challenge/tree/main/social-links-profile-main)
-- Live Site URL: [social-link-card.netlify.app](https://social-link-card.netlify.app)
+- Live Site URL: [taricodes-social-link-card.netlify.app](https://taricodes-social-link-card.netlify.app)
 
 ## My process
 
