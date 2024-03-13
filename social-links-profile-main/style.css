@@ -27,12 +27,12 @@ body {
   background: var(--clr-off-Black);
   color: var(--clr-white);
   font-family: var(--ff), sans-serif;
-  min-height: 100svh;
+  min-height: 100dvh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 2rem;
+  gap: 2.8rem;
 }
 
 ul {
