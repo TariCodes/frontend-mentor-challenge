@@ -42,7 +42,7 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - Mobile-first workflow
-- Taikwindcss
+- Tailwindcss
 
 ### What I learned
 
