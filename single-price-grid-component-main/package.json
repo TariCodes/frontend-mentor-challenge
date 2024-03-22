@@ -1,0 +1,15 @@
+{
+  "name": "single-price-grid-component-main",
+  "version": "1.0.0",
+  "description": "![Design preview for the Single price grid component coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "build-css" : "lessc src/global.less public/assets/styles/main.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "less": "^4.2.0"
+  }
+}
