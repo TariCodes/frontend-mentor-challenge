@@ -1,0 +1,38 @@
+html {
+    font-size: @fs;
+}
+
+body {
+    font-family: @ff, sans-serif;
+    line-height: 1.5;
+    color: @white;
+    height: 100vh;
+    background-color: @light-gray;
+    display: grid;
+    grid-template-rows: 1fr auto;
+    place-items: center;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-weight: 700;
+    font-family: @ff;
+}
+
+h2 {
+    color: @white;
+    font-size: 1.35rem;
+}
+
+button {
+    display: block;
+    outline: none;
+    border: none;
+    color: @white;
+}
+
+.section-padding {
+    padding: @section-padding;
+}

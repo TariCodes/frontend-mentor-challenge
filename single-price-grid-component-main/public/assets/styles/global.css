@@ -1,0 +1,90 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 16px;
+}
+body {
+  font-family: "Karla", sans-serif;
+  line-height: 1.5;
+  color: hsl(0, 0%, 100%);
+  height: 100vh;
+  background-color: hsl(204, 43%, 93%);
+  display: grid;
+  grid-template-rows: 1fr auto;
+  place-items: center;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 700;
+  font-family: "Karla";
+}
+h2 {
+  color: hsl(0, 0%, 100%);
+  font-size: 1.35rem;
+}
+button {
+  display: block;
+  outline: none;
+  border: none;
+  color: hsl(0, 0%, 100%);
+}
+.section-padding {
+  padding: 1.75rem;
+}
+main {
+  max-width: 600px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  border-radius: 10px;
+  box-shadow: 1px 2px 3px #747272;
+}
+#community {
+  background: hsl(0, 0%, 100%);
+  grid-column: span 2;
+}
+#community h1 {
+  color: hsl(179, 62%, 43%);
+  margin-bottom: 1.25rem;
+}
+#community p {
+  color: hsl(218, 22%, 67%);
+}
+#community p span {
+  color: hsl(71, 73%, 54%);
+}
+#subscription {
+  background: hsl(179, 62%, 43%);
+  color: hsl(0, 0%, 100%);
+}
+#subscription .price {
+  font-size: 1.75rem;
+}
+#subscription .duration {
+  font-size: 0.75rem;
+  color: hsl(218, 22%, 67%);
+  font-weight: 700;
+}
+#subscription .cta-btn {
+  background-color: hsl(71, 73%, 54%);
+  width: 12rem;
+  padding: 0.75rem 1rem;
+  text-align: center;
+  border-radius: 3px;
+}
+#about {
+  background: hsl(179, 47%, 52%);
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
