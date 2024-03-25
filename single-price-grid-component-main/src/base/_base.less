@@ -5,12 +5,27 @@ html {
 body {
     font-family: @ff, sans-serif;
     line-height: 1.5;
-    color: @white;
     height: 100vh;
     background-color: @light-gray;
     display: grid;
     grid-template-rows: 1fr auto;
     place-items: center;
+}
+
+a {
+    display: inline-block;
+    font-weight: 400;
+    font-family: inherit;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    color: @light-gray;
+    font-size: @fs - 2px;
+    margin-bottom: .275rem;
 }
 
 h1,
@@ -23,16 +38,24 @@ h4 {
 
 h2 {
     color: @white;
-    font-size: 1.35rem;
+    font-size: 1.25rem;
+    margin-bottom: .75rem;
 }
 
-button {
-    display: block;
-    outline: none;
-    border: none;
-    color: @white;
+p {
+    font-size: inherit;
 }
 
 .section-padding {
     padding: @section-padding;
+}
+
+main {
+    max-width: 600px;
+    display: grid;
+    overflow: hidden;
+    background-color: @white;
+    grid-template-columns: repeat(2, 1fr);
+    box-shadow: 1px 2px 3px rgb(116, 114, 114);
+    border-radius: 10px;
 }
