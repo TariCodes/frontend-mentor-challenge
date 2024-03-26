@@ -1,6 +1,12 @@
 #subscription {
     background: @cyan;
     color: @white;
+    padding-bottom: 0%;
+
+    :nth-child(2) {
+        display: flex;
+        align-items: center;
+    }
 
     .price {
         font-size: 1.95rem;
@@ -14,11 +20,9 @@
         font-weight: 400;
     }
 
-    .cta-btn {
+    .cta--btn {
         background-color: @bright-yellow;
-        width: 100%;
         padding: .75rem 1rem;
-        text-align: center;
         border-radius: 3px;
         margin-top: 1.95rem;
         font-weight: 700;
