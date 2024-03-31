@@ -24,6 +24,9 @@ a {
 }
 ul {
   list-style-type: none;
+  padding: 0;
+  display: block;
+  font-family: "Karla";
 }
 li {
   color: hsl(204, 43%, 93%);
@@ -115,4 +118,9 @@ main {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+@media screen and (max-width: 748px) {
+  main {
+    display: block;
+  }
 }
