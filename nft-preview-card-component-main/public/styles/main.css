@@ -1,0 +1,24 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+* {
+  box-sizing: inherit;
+}
+body {
+  min-height: 100vh;
+  background-color: hsl(217, 54%, 11%);
+  font-size: 18px;
+  font-weight: 300;
+  font-family: 'Outfit', sans-serif;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
