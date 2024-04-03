@@ -1,46 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="styles/main.css">
-  
-  <title>Frontend Mentor | NFT preview card component</title>
-</head>
-<body>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
 
-  <main>
+    <link rel="stylesheet" href="styles/main.css" />
 
-    <div class="container">
-      <div class="image-wrapper">
-        <img src="images/image-equilibrium.jpg" alt="" class="__image">
+    <title>Frontend Mentor | NFT preview card component</title>
+  </head>
+  <body>
+    <main>
+      <div class="card">
+        <img src="images/image-equilibrium.jpg" alt="" class="card__image" />
+
+        <div class="contents">
+          <div class="section-header">
+            <h1 class="section-header__title">
+              Equilibrium <span>#3429</span>
+            </h1>
+            <p class="section-header__desc">
+              Our Equilibrium collection promotes balance and calm.
+            </p>
+          </div>
+
+          <ul class="object">
+            <li class="object__item"><span>0.041 ETH</span></li>
+            <li class="object__item"><span>3 days left</span></li>
+          </ul>
+        </div>
+
+        <div class="avatar">
+          <img
+            class="avatar__img"
+            src="images/image-avatar.png"
+            alt="image avatar"
+          />
+          <p class="avatar__desc">Creation of <span>Jules Wyvern</span></p>
+        </div>
       </div>
-    <div>
-      <div>
-        <h1>Equilibrium #3429</h1>
-        <p>Our Equilibrium collection promotes balance and calm.</p>
-      </div>
-      <div>
-        <p><span>0.041 ETH</span></p>
-        <p><span>3 days left</span></p>
-      </div>
-    </div>
-    
-    <div>
-      <img src="images/image-avatar.png" alt="image avatar">
-      <p>Creation of <span>Jules Wyvern</span></p>
-    </div>
+    </main>
 
-    </div>
-  </main>
-
-  <footer>
-    <div class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-      Coded by <a href="#">Your Name Here</a>.
-    </div>
-  </footer>
-</body>
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Godbless Ikadoi</a>.
+      </div>
+    </footer>
+  </body>
 </html>

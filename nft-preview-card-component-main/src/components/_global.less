@@ -1,0 +1,83 @@
+main {
+    margin-inline: 1.25rem;
+}
+
+.card {
+    padding: 1.55rem 1.95rem;
+    max-width: 380px;
+    margin: 0 auto;
+    background: @bg-secondary;
+    border-radius: .85rem;
+
+    &__image {
+        width: 400px;
+        height: 300px;
+        object-fit: cover;
+        border-radius: .55rem;
+    }
+}
+
+.contents {
+    .section-header {
+        &__title {
+            font-size: 1.65rem;
+            font-weight: @fw-600;
+            margin: .95rem 0;
+        }
+
+        &__desc {
+            letter-spacing: 1px;
+        }
+    }
+
+    .object {
+        .flex();
+        width: 100%;
+        .justify-between();
+        margin-top: 18px;
+        color: @soft-blue;
+
+        &__item {
+            padding-left: 20px;
+
+        }
+
+        &__item:first-child {
+            color: @cyan;
+            font-weight: 600;
+            background-image: url(../../public/images/icon-ethereum.svg);
+            background-repeat: no-repeat;
+            background-position: 2% 45%;
+        }
+
+        &__item:last-child {
+            background-image: url(../../public/images/icon-clock.svg);
+            background-repeat: no-repeat;
+            background-position: 2% 45%;
+        }
+    }
+
+
+    padding-bottom: 15px;
+    border-bottom: 1px solid @very-dark-blue;
+}
+
+
+
+.avatar {
+    .flex();
+    .items-center();
+    margin-top: 18px;
+
+    &__img {
+        width: 30px;
+        height: 30px;
+        margin-right: 15px;
+        border: 1px solid @white;
+        border-radius: 50%;
+    }
+
+    &__desc span {
+        color: @white;
+    }
+}

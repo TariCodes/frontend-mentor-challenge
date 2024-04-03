@@ -9,11 +9,123 @@
   box-sizing: inherit;
 }
 body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   min-height: 100vh;
   background-color: hsl(217, 54%, 11%);
   font-size: 18px;
-  font-weight: 300;
+  font-weight: 400;
   font-family: 'Outfit', sans-serif;
+  line-height: 1.5;
+  color: hsl(0, 0%, 100%);
+  padding: 50px 0;
+}
+h1,
+h2,
+h3 {
+  font-weight: 600;
+}
+p {
+  color: hsl(215, 51%, 70%);
+  font-weight: 400;
+  line-height: 1.8;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+main {
+  margin-inline: 1.25rem;
+}
+.card {
+  padding: 1.55rem 1.95rem;
+  max-width: 380px;
+  margin: 0 auto;
+  background: hsl(216, 50%, 16%);
+  border-radius: 0.85rem;
+}
+.card__image {
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 0.55rem;
+}
+.contents {
+  padding-bottom: 15px;
+  border-bottom: 1px solid hsl(215, 32%, 27%);
+}
+.contents .section-header__title {
+  font-size: 1.65rem;
+  font-weight: 600;
+  margin: 0.95rem 0;
+}
+.contents .section-header__desc {
+  letter-spacing: 1px;
+}
+.contents .object {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 18px;
+  color: hsl(215, 51%, 70%);
+}
+.contents .object__item {
+  padding-left: 20px;
+}
+.contents .object__item:first-child {
+  color: hsl(178, 100%, 50%);
+  font-weight: 600;
+  background-image: url(../../public/images/icon-ethereum.svg);
+  background-repeat: no-repeat;
+  background-position: 2% 45%;
+}
+.contents .object__item:last-child {
+  background-image: url(../../public/images/icon-clock.svg);
+  background-repeat: no-repeat;
+  background-position: 2% 45%;
+}
+.avatar {
+  display: flex;
+  align-items: center;
+  margin-top: 18px;
+}
+.avatar__img {
+  width: 30px;
+  height: 30px;
+  margin-right: 15px;
+  border: 1px solid hsl(0, 0%, 100%);
+  border-radius: 50%;
+}
+.avatar__desc span {
+  color: hsl(0, 0%, 100%);
+}
+.flex {
+  display: flex;
+}
+.direction-col {
+  flex-direction: column;
+}
+.direction-row {
+  flex-direction: row;
+}
+.items-center {
+  align-items: center;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+footer {
+  margin-top: 30px;
 }
 .attribution {
   font-size: 11px;
