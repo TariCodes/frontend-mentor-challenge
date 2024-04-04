@@ -8,7 +8,7 @@
     "watch-css": "less-watch-compiler src public/styles"
   },
   "keywords": [],
-  "author": "",
+  "author": "Godbless Ikadoi",
   "license": "ISC",
   "dependencies": {
     "less": "^4.2.0",
