@@ -8,6 +8,10 @@
 * {
   box-sizing: inherit;
 }
+html {
+  scroll-behavior: smooth;
+  font-size: 18px;
+}
 body {
   display: flex;
   flex-direction: column;
@@ -15,7 +19,6 @@ body {
   align-items: center;
   min-height: 100vh;
   background-color: hsl(217, 54%, 11%);
-  font-size: 18px;
   font-weight: 400;
   font-family: 'Outfit', sans-serif;
   line-height: 1.5;
@@ -26,11 +29,13 @@ h1,
 h2,
 h3 {
   font-weight: 600;
+  font-size: 1.25rem;
 }
 p {
   color: hsl(215, 51%, 70%);
   font-weight: 400;
   line-height: 1.8;
+  font-size: 0.94rem;
 }
 ul {
   list-style: none;
@@ -42,7 +47,7 @@ img {
   display: block;
 }
 main {
-  margin-inline: 1.25rem;
+  margin-inline: 1.4rem;
 }
 .card {
   padding: 1.55rem 1.95rem;
@@ -53,12 +58,12 @@ main {
 }
 .card__image {
   width: 400px;
-  height: 300px;
+  height: 400px;
   object-fit: cover;
   border-radius: 0.55rem;
 }
 .contents {
-  padding-bottom: 15px;
+  padding-bottom: 24px;
   border-bottom: 1px solid hsl(215, 32%, 27%);
 }
 .contents .section-header__title {
@@ -77,7 +82,7 @@ main {
   color: hsl(215, 51%, 70%);
 }
 .contents .object__item {
-  padding-left: 20px;
+  padding-left: 24px;
 }
 .contents .object__item:first-child {
   color: hsl(178, 100%, 50%);
