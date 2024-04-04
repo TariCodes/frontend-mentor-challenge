@@ -129,13 +129,13 @@ main {
 .justify-between {
   justify-content: space-between;
 }
-footer {
+.footer {
   margin-top: 30px;
 }
-.attribution {
+.footer__attribution {
   font-size: 11px;
   text-align: center;
 }
-.attribution a {
+.footer__attribution a {
   color: hsl(228, 45%, 44%);
 }
