@@ -35,7 +35,7 @@ p {
   color: hsl(215, 51%, 70%);
   font-weight: 400;
   line-height: 1.8;
-  font-size: 0.94rem;
+  font-size: clamp(0.95rem, 1.5vw, 1.2rem);
 }
 ul {
   list-style: none;
@@ -57,8 +57,8 @@ main {
   border-radius: 0.85rem;
 }
 .card__image {
-  width: 400px;
-  height: 400px;
+  width: 500px;
+  height: 300px;
   object-fit: cover;
   border-radius: 0.55rem;
 }
@@ -67,7 +67,7 @@ main {
   border-bottom: 1px solid hsl(215, 32%, 27%);
 }
 .contents .section-header__title {
-  font-size: 1.65rem;
+  font-size: clamp(1.75rem, 2.3vw, 2.15rem);
   font-weight: 600;
   margin: 0.95rem 0;
 }
