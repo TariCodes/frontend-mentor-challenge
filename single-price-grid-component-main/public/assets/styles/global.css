@@ -11,10 +11,12 @@ html {
 body {
   font-family: "Karla", sans-serif;
   line-height: 1.5;
-  height: 100vh;
+  min-height: 100dvh;
+  padding: 45px 0;
   background-color: hsl(204, 43%, 93%);
   display: grid;
-  grid-template-rows: 1fr auto;
+  gap: 25px;
+  grid-template-rows: 1fr 30px;
   place-items: center;
 }
 a {
@@ -39,6 +41,7 @@ h3,
 h4 {
   font-weight: 700;
   font-family: "Karla";
+  margin-bottom: 0;
 }
 h2 {
   color: hsl(0, 0%, 100%);
@@ -52,12 +55,12 @@ p {
   padding: 1.875rem;
 }
 main {
-  max-width: 600px;
+  width: clamp(300px, 85%, 650px);
   display: grid;
   overflow: hidden;
   background-color: hsl(0, 0%, 100%);
   grid-template-columns: repeat(2, 1fr);
-  box-shadow: 3px 3px 6px hsl(204, 43%, 93%);
+  box-shadow: 0px 1px 4px hsl(204, 43%, 93%);
   border-radius: 10px;
 }
 .btn {
@@ -70,8 +73,9 @@ main {
 }
 #community h1 {
   color: hsl(179, 62%, 43%);
-  margin-bottom: 1.25rem;
+  margin-bottom: 0.75rem;
   font-weight: 700;
+  font-size: 1.95rem;
 }
 #community h1 + p {
   margin-bottom: 0.56rem;
@@ -86,7 +90,6 @@ main {
 #subscription {
   background: hsl(179, 62%, 43%);
   color: hsl(0, 0%, 100%);
-  padding-bottom: 0%;
 }
 #subscription :nth-child(2) {
   display: flex;
@@ -108,6 +111,19 @@ main {
   border-radius: 3px;
   margin-top: 1.95rem;
   font-weight: 700;
+  box-shadow: 1px 3px 8px hsl(0, 5%, 20%);
+  transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+#subscription .cta--btn:hover {
+  background: #cae93e;
+  color: hsl(0, 5%, 20%);
+  box-shadow: 0px 2px 5px;
+  transform: scale(0.95);
+  -moz-transform: scale(0.95);
+  -o-transform: scale(0.95);
 }
 #about {
   background: hsl(179, 47%, 52%);
@@ -119,8 +135,16 @@ main {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
-@media screen and (max-width: 748px) {
+@media screen and (max-width: 700px) {
   main {
     display: block;
+    margin-inline: 15px;
+    overflow: visible;
+  }
+  #community h1 {
+    font-size: 1.35rem;
+  }
+  #subscription {
+    padding-block: 30px;
   }
 }

@@ -5,10 +5,12 @@ html {
 body {
     font-family: @ff, sans-serif;
     line-height: 1.5;
-    height: 100vh;
+    min-height: 100dvh;
+    padding: 45px 0;
     background-color: @light-gray;
     display: grid;
-    grid-template-rows: 1fr auto;
+    gap: 25px;
+    grid-template-rows: 1fr 30px;
     place-items: center;
 }
 
@@ -37,6 +39,7 @@ h3,
 h4 {
     font-weight: 700;
     font-family: @ff;
+    margin-bottom: 0;
 }
 
 h2 {
@@ -54,12 +57,12 @@ p {
 }
 
 main {
-    max-width: 600px;
+    width: clamp(300px, 85%, 650px);
     display: grid;
     overflow: hidden;
     background-color: @white;
     grid-template-columns: repeat(2, 1fr);
-    box-shadow: 3px 3px 6px @light-gray;
+    box-shadow: 0px 1px 4px @light-gray;
     border-radius: 10px;
 }
 
