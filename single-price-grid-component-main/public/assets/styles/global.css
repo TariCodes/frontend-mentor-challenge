@@ -14,10 +14,10 @@ body {
   min-height: 100dvh;
   padding: 45px 0;
   background-color: hsl(204, 43%, 93%);
-  display: grid;
   gap: 25px;
-  grid-template-rows: 1fr 30px;
+  display: grid;
   place-items: center;
+  grid-template-rows: 1fr 30px;
 }
 a {
   display: inline-block;
@@ -25,9 +25,10 @@ a {
   font-family: inherit;
 }
 ul {
+  display: block;
   list-style-type: none;
   padding: 0;
-  display: block;
+  margin: 0;
   font-family: "Karla";
 }
 li {
@@ -51,61 +52,56 @@ h2 {
 p {
   font-size: inherit;
 }
-.section-padding {
-  padding: 1.875rem;
-}
 main {
   width: clamp(300px, 85%, 650px);
   display: grid;
+  grid-template-columns: repeat(2, 1fr);
   overflow: hidden;
   background-color: hsl(0, 0%, 100%);
-  grid-template-columns: repeat(2, 1fr);
-  box-shadow: 0px 1px 4px hsl(204, 43%, 93%);
+  box-shadow: 0px 1px 8px hsl(204, 43%, 93%);
   border-radius: 10px;
 }
-.btn {
-  width: 100%;
-  display: block;
-  text-align: center;
+.section {
+  padding: 2.4rem;
 }
-#community {
+.community--section {
   grid-column: span 2;
 }
-#community h1 {
+.community--section__title {
   color: hsl(179, 62%, 43%);
   margin-bottom: 0.75rem;
   font-weight: 700;
   font-size: 1.95rem;
 }
-#community h1 + p {
-  margin-bottom: 0.56rem;
-}
-#community p {
-  color: hsl(218, 22%, 67%);
-}
-#community p span {
-  color: hsl(71, 73%, 54%);
+.community--section__title + p {
+  margin-bottom: 0.875rem;
   font-weight: 700;
 }
-#subscription {
+.community--section p {
+  color: hsl(218, 22%, 67%);
+}
+.community--section p span {
+  color: hsl(71, 73%, 54%);
+}
+.subscription--section {
   background: hsl(179, 62%, 43%);
   color: hsl(0, 0%, 100%);
 }
-#subscription :nth-child(2) {
+.subscription--section :nth-child(2) {
   display: flex;
   align-items: center;
 }
-#subscription .price {
+.subscription--section .price {
   font-size: 1.95rem;
   font-weight: 700;
   margin-right: 10px;
 }
-#subscription .duration {
+.subscription--section .duration {
   font-size: 0.85rem;
   color: hsl(204, 43%, 93%);
   font-weight: 400;
 }
-#subscription .cta--btn {
+.subscription--section .cta--btn {
   background-color: hsl(71, 73%, 54%);
   padding: 0.75rem 1rem;
   border-radius: 3px;
@@ -117,15 +113,15 @@ main {
   -o-transition: all 0.2s ease-in-out;
   cursor: pointer;
 }
-#subscription .cta--btn:hover {
-  background: #cae93e;
+.subscription--section .cta--btn:hover {
+  background: #cfee43;
   color: hsl(0, 5%, 20%);
   box-shadow: 0px 2px 5px;
   transform: scale(0.95);
   -moz-transform: scale(0.95);
   -o-transform: scale(0.95);
 }
-#about {
+.about--section {
   background: hsl(179, 47%, 52%);
 }
 .attribution {
@@ -135,15 +131,59 @@ main {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+.block {
+  display: block;
+}
+.inline-block {
+  display: inline-block;
+}
+.grid {
+  display: grid;
+}
+.place-item {
+  place-items: center;
+}
+.grid-col-1 {
+  grid-template-columns: 1fr;
+}
+.grid-col-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+.gutter-0 {
+  gap: 0;
+}
+.gutter-1 {
+  gap: 0.275rem;
+}
+.gutter-2 {
+  gap: 0.5rem;
+}
+.gutter-3 {
+  gap: 0.875rem;
+}
+.gutter-4 {
+  gap: 1rem;
+}
+.gutter-5 {
+  gap: 1.25rem;
+}
+.gutter-6 {
+  gap: 1.5rem;
+}
+.section-padding {
+  padding: 2.4rem;
+}
+.btn {
+  width: 100%;
+  display: block;
+  text-align: center;
+}
 @media screen and (max-width: 700px) {
   main {
     display: block;
     margin-inline: 15px;
   }
-  #community h1 {
+  .community--section__title {
     font-size: 1.35rem;
-  }
-  #subscription {
-    padding-block: 30px;
   }
 }

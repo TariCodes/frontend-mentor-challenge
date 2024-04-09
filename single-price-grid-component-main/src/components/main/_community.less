@@ -1,17 +1,16 @@
-#community {
+.community--section {
     grid-column: span 2;
-    // border-top-right-radius: 20px;
-    // border-top-left-radius: 20px;
 
-    h1 {
+    &__title {
         color: @cyan;
         margin-bottom: .75rem;
         font-weight: 700;
         font-size: 1.95rem;
     }
 
-    h1+p {
-        margin-bottom: .56rem;
+    &__title+p {
+        margin-bottom: .875rem;
+        font-weight: 700;
     }
 
     p {
@@ -20,6 +19,5 @@
 
     p span {
         color: @bright-yellow;
-        font-weight: 700;
     }
 }
