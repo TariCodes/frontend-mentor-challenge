@@ -139,7 +139,6 @@ main {
   main {
     display: block;
     margin-inline: 15px;
-    overflow: visible;
   }
   #community h1 {
     font-size: 1.35rem;
