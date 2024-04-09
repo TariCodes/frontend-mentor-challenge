@@ -114,8 +114,8 @@ main {
   cursor: pointer;
 }
 .subscription--section .cta--btn:hover {
-  background: #cfee43;
-  color: hsl(0, 5%, 20%);
+  background: hsl(71, 95%, 47%);
+  color: #403a3a;
   box-shadow: 0px 2px 5px;
   transform: scale(0.95);
   -moz-transform: scale(0.95);
