@@ -1,4 +1,4 @@
-@media screen and (min-width:500px) {
+@media screen and (min-width:560px) {
 
     body {
         .grid;
@@ -8,11 +8,25 @@
     .container {
         padding: 1.95rem;
         margin: 0% auto;
-        max-width: 1000px;
+        max-width: 1200px;
     }
 
     main {
         .grid;
         .grid-cols-3;
+        grid-template-rows: 400px;
+    }
+
+    .btn {
+
+        &:hover {
+            background-color: transparent;
+            color: @white;
+            border: 2px solid @white;
+        }
+    }
+
+    .title {
+        margin-bottom: 2.4rem;
     }
 }
