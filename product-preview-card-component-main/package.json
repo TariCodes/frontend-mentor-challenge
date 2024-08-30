@@ -1,0 +1,22 @@
+{
+  "name": "product-preview-card-component-main",
+  "version": "1.0.0",
+  "description": "This is a solution to the [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa). Frontend Mentor challenges help you improve your coding skills by building realistic projects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "keywords": [],
+  "author": "Godbless Ikadoi",
+  "license": "MIT",
+  "dependencies": {
+    "@astrojs/tailwind": "^5.1.0",
+    "astro": "^4.15.1",
+    "tailwindcss": "^3.4.10"
+  }
+}
