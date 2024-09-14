@@ -33,7 +33,11 @@ The designs were created to the following widths:
 - Family: [Montserrat](https://fonts.google.com/specimen/Montserrat)
 - Weights: 500, 700
 
+font-family: "Montserrat", sans-serif;
+
 - Family: [Fraunces](https://fonts.google.com/specimen/Fraunces)
 - Weights: 700
+
+font-family: "Fraunces", serif;
 
 > 💎 [Upgrade to Pro](https://www.frontendmentor.io/pro?ref=style-guide) for design file access to see all design details and get hands-on experience using a professional workflow with tools like Figma.

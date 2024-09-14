@@ -1,0 +1,81 @@
+---
+import BaseLayout from "../layout/BaseLayout.astro";
+import Header from "../Components/Header.astro";
+import Footer from "../Components/Footer.astro";
+---
+
+<BaseLayout
+  title="Frontend Mentor | Huddle landing page with alternating feature blocks"
+>
+  <Header />
+  <main>
+    <!-- grow together section -->
+    <section class="grow-together card">
+      <div class="container container--lg">
+        <img
+          src="/images/illustration-grow-together.svg"
+          alt="grow-together illustration"
+          class="card__image"
+        />
+        <div class="card__contents">
+          <h2 class="card__subtitle">Grow Together</h2>
+          <p class="card__description-text">
+            Generate meaningful discussions with your audience and build a
+            strong, loyal community. Think of the insightful conversations you
+            miss out on with a feedback form.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- flowing conversions section -->
+    <section class="card flow-conversations">
+      <div class="container container--lg">
+        <img
+          src="/images/illustration-flowing-conversation.svg"
+          alt=""
+          class="card__image"
+        />
+        <div class="card__contents">
+          <h2 class="card__subtitle">Flowing Conversations</h2>
+          <p class="card__description-text">
+            You wouldn't paginate a conversation in real life, so why do it
+            online? Our threads have just-in-time loading for a more natural
+            flow.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- User section -->
+    <section class="user card">
+      <div class="container container--lg">
+        <div class="card__body">
+          <img
+            src="/images/illustration-your-users.svg"
+            alt=""
+            class="card__image"
+          />
+          <div class="card__contents">
+            <h2 class="card__subtitle">Your Users</h2>
+            <p class="card__description-text">
+              It takes no time at all to integrate Huddle with your app's
+              authentication solution. This means, once signed in to your app,
+              your users can start chatting immediately.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- build your community card -->
+    <div class="card card--sm">
+      <div class="container container--lg">
+        <div class="card__contents">
+          <h2 class="card__subtitle">Ready To Build Your Community?</h2>
+          <a href="#" class="ctn ctn--primary">Get Started For Free</a>
+        </div>
+      </div>
+    </div>
+  </main>
+  <Footer />
+</BaseLayout>

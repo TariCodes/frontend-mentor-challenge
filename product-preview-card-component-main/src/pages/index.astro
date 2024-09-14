@@ -2,26 +2,24 @@
 import Layout from "../layouts/Layout.astro";
 import H1 from "../components/H1.astro";
 import Main from "../components/Main.astro";
+import Footer from "../components/Footer.astro";
+import Button from "../components/Button.jsx";
 ---
 
 <Layout title="Frontend Mentor | Product preview card component">
   <Main>
-    <h2 class="uppercase">Perfume</h2>
+    <h2 class="uppercase text-slate-500 tracking-[0.19em]">Perfume</h2>
     <H1 text="Gabrielle Essence Eau De Parfum" />
-    <p>
+    <p class="text-slate-500 font-normal">
       A floral, solar and voluptuous interpretation composed by Olivier Polge,
       Perfumer-Creator for the House of CHANEL.
     </p>
-    <div>
-      <span class="text-4xl text-primary-200 font-bold">$149.99</span>
-      <span class="">$169.99</span>
-    </div> Add to Cart <button></button>
-  </Main>
 
-  <div class="attribution">
-    Challenge by
-    <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-      >Frontend Mentor</a
-    >. Coded by <a href="#">Your Name Here</a>.
-  </div>
+    <div class="flex my-5 gap-5 items-center">
+      <span class="text-4xl text-primary-200 font-bold">$149.99</span>
+      <span class="line-through text-slate-500">$169.99</span>
+    </div>
+    <Button />
+  </Main>
+  <Footer />
 </Layout>
