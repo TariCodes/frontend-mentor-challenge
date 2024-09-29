@@ -1,0 +1,55 @@
+// make use of colors 
+@use "color" as *;
+
+// make use of variables
+@use "vars" as *;
+
+// extracting the colors into :root 
+:root {
+    @each $color-name, $values in $colors {
+        @each $shade-name, $shade-value in $values {
+            --#{$color-name}-#{$shade-name}:#{$shade-value};
+        }
+    }
+}
+
+
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+} 
+
+ul, li {
+    list-style-type: none;
+}
+
+img {
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: $HeadingFontFamily, $baseFontFamily;
+    font-weight:$fw-m;
+    font-size: inherit;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+

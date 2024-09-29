@@ -1,0 +1,36 @@
+@use "/src/styles/base/vars" as *;
+
+.header {
+    background: url(/src/images/bg-hero-desktop.svg),var(--cyan-100);
+    background-size: cover ;
+    background-repeat: no-repeat;
+    background-position:top -10% right 83%;
+    padding:1.11rem 0 2.778rem;
+
+    .hero{ 
+        .container {
+            display: -ms-flexbox;
+            display: flex;
+            gap: 1.66rem;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        &__title {
+            color: var(--cyan-500);
+            line-height: 1.5;
+            font-size: 2.5rem;
+            font-weight: $fw-m;
+            margin-bottom: .833rem;
+        }
+
+        &__description {
+            color: var(--cyan-500);
+            line-height: 1.45;
+        }
+
+        &__img {
+            width: clamp(300px,60%,660px);
+        }
+    }
+}

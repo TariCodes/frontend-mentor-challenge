@@ -1,0 +1,14 @@
+.navbar {
+    padding:1.66rem 0 ;
+    margin-bottom: 1.38rem;
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__logo {
+       width: 8.33rem;
+    }
+}
