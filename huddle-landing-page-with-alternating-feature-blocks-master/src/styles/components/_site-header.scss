@@ -4,14 +4,15 @@
     background: url(/src/images/bg-hero-desktop.svg),var(--cyan-100);
     background-size: cover ;
     background-repeat: no-repeat;
-    background-position:top -10% right 83%;
+    background-position:top 20% right 85%;
     padding:1.11rem 0 2.778rem;
 
     .hero{ 
         .container {
-            display: -ms-flexbox;
-            display: flex;
-            gap: 1.66rem;
+            display: -ms-grid;
+            display: grid;
+            grid-template-columns: 45% 55%;
+            gap: 1.96rem;
             align-items: center;
             justify-content: space-between;
         }
@@ -30,7 +31,7 @@
         }
 
         &__img {
-            width: clamp(300px,60%,660px);
+            width: clamp(300px,90%,660px);
         }
     }
 }
