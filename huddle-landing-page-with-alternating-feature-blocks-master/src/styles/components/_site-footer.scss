@@ -1,4 +1,4 @@
-// @use "../base/color" as *;
+@use "../base/vars" as *;
 
 .footer {
     color: var(--neutral-100);
@@ -50,6 +50,11 @@
             &__links {
                 display: block;
                 padding-bottom: 1.388rem;
+
+                &:hover {
+                    text-decoration: underline;
+                    transition: $transition;
+                }
             }
         }
 
