@@ -17,14 +17,14 @@
         transition:$transition;
 
         &--primary {
-            background-color: var(--pink-500);
-            color: var(--pink-700);
-            box-shadow: 1px 1px 6px var(--pink-500);
+            background-color: var(--green-500);
+            color: var(--green-700);
+            box-shadow: 1px 1px 6px var(--green-500);
             margin: 2.22rem 0 1.11rem;
             padding: 13px 2.5rem;
 
             &:hover, &:active {
-                background-color: var(--pink-200);
+                background-color: var(--green-200);
                 color: var(--neutral-100);
             }
         }

@@ -6,7 +6,11 @@
     display: flex;
     padding: 8.35rem 0 2.22rem;
     align-items: center;
-    justify-content: center;    
+    justify-content: center;  
+    
+    &__logo {
+        width: 8.33rem;
+    }
 
     &__body {
         display: grid;
@@ -26,7 +30,7 @@
                 margin-bottom: 1.388rem;
                 line-height: 1.3;
 
-                img{
+                img {
                 margin-right: 1.11rem;
                 max-width: .83rem;
                 padding-top: .44rem;
@@ -35,7 +39,6 @@
 
                 &:last-child {
                     margin-bottom: 0;
-
                 }
             }
         }
@@ -47,6 +50,7 @@
             align-items: center;
             text-align: center;
             padding-top: 1.388rem;
+
             &__links {
                 display: block;
                 padding-bottom: 1.388rem;
@@ -60,11 +64,21 @@
 
         .social-links {
             display: flex;
-            gap: .83rem;
-            justify-content: center;
-            img{
-                max-width:2.10rem ;
+            gap: .85rem;
+            align-items: start;
+
+           &__icon{
+            width: 28px;
+            height: 28px;
+            border: 1px solid var(--neutral-100);
+            padding: .30rem;
+            object-fit: contain;
+            border-radius: 50%;
+
+            &:hover {
+                border-color: var(--green-200);
             }
+           }
         }
     }
 
