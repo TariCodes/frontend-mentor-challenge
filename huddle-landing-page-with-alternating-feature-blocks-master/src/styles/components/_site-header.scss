@@ -20,7 +20,7 @@
         &__title {
             color: var(--cyan-500);
             line-height: 1.5;
-            font-size: 2.5rem;
+            font-size: 2.997rem;
             font-weight: $fw-m;
             margin-bottom: .833rem;
         }
@@ -28,10 +28,12 @@
         &__description {
             color: var(--cyan-500);
             line-height: 1.45;
+            font-size: 1.254rem;
+            letter-spacing: .003px;
         }
 
         &__img {
-            width: clamp(300px,90%,660px);
+            width: clamp(300px,95%,660px);
         }
     }
 }

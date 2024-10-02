@@ -11,10 +11,15 @@ main {
             align-items: center;
             gap: 1.10rem;
             padding: 1.11rem 0;
-        }        
+        } 
+        
+        h2 {
+            font-size: 2.80rem;
+        }
     }
     .community h2 {
-        font-size: 1.45rem;
+        font-size: 2.75rem;
+        letter-spacing: .40px;
     }
 
     .community .cta {
