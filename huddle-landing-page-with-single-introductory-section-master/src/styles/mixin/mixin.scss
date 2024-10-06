@@ -1,0 +1,9 @@
+@mixin scale(){
+    transition: $transition;
+
+    &:hover,
+    &:focus {
+        transform: scale(1.01);
+        opacity: .5;
+    }
+}

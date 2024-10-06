@@ -1,0 +1,33 @@
+---
+import BaseLayout from "../layout/baseLayout.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+---
+
+<BaseLayout>
+  <Header />
+  <section class="hero-section">
+    <div class="container">
+      <div class="hero-section__contents">
+        <h1 class="hero-section__title">
+          Build The Community Your Fans Will Love
+        </h1>
+        <p class="hero-section__description">
+          Huddle re-imagines the way we build communities. You have a voice, but
+          so does your audience. Create connections with your users as you
+          engage in genuine discussion.
+        </p>
+        <a href="#" class="cta hero-section__cta">Register</a>
+      </div>
+
+      <figure class="hero-section__illustration-wrapper">
+        <img
+          src="/src/images/illustration-mockups.svg"
+          alt="illustration"
+          class="hero-section__illustration"
+        />
+      </figure>
+    </div>
+  </section>
+  <Footer />
+</BaseLayout>
