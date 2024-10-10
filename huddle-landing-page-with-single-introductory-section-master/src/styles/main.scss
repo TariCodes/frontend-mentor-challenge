@@ -1,2 +1,4 @@
-@use "Base/index.scss";
-@use "components/Footer/index.scss";
+@use "./components";
+@use "./base";
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Poppins:wght@400;600&display=swap');

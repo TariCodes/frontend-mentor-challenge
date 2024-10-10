@@ -1,0 +1,13 @@
+@use "../base/color";
+@use "../base/var" as *;
+
+@mixin scale(){
+    transition: $transition;
+    
+    &:hover,
+    &:focus {
+        background-color: var(--softMagenta-100);
+        color: var(--neutral-100);
+        transform: scale(1.07);
+    }
+}

@@ -1,0 +1,43 @@
+ @use "../base/var" as *;
+
+
+ .footer{
+  display: flex;
+  justify-content: end;
+
+    .social-icons-wrapper {
+      display:flex;
+
+      .social-icons {
+        border: 1px solid var(--neutral-100);
+        padding: 5px;
+        border-radius: 50%;
+        display: inline-block;
+        margin-left: 15px;
+
+        &:hover,
+        &:focus {
+          border-color:var(--softMagenta-100);
+          color: var(--softMagenta-100);
+          transition: $transition;
+        }
+      }
+     
+    }
+
+    &__end {
+      margin-top: 10px;
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+        display: flex;
+      }
+
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    }
+
+    
+      
+}

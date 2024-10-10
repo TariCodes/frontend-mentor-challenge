@@ -1,0 +1,60 @@
+// make use of colors 
+@use "color" as *;
+
+// make use of variables
+@use "./var" as *;
+
+// extracting the colors into :root 
+:root {
+    @each $color-name, $values in $colors {
+        @each $shade-name, $shade-value in $values {
+            --#{$color-name}-#{$shade-name}:#{$shade-value};
+        }
+    }
+}
+
+*,*::after,*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+body {
+    min-height: 100dvh;
+    background: url(/src/images/bg-mobile.svg), var(--violet-100);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-inline: 15px;
+    line-height: 1.2;
+    color: var(--neutral-100);
+    font-weight: $fw-md;
+    font-family:$bodyFont, system-ui;
+
+    @media only screen and (min-width:1000px){
+        background:url(/src/images/bg-desktop.svg),var(--violet-100);
+        background-position-y: top 50%;
+    }
+}
+
+h1, h2, h3 {
+    font-family: $headerFont, system-ui;
+}
