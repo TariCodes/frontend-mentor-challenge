@@ -5,7 +5,7 @@
 
 .hero-section {
     color: var(--neutral-100);
-    margin-top: 82px;
+    margin-top: 60px;
 
     .container {
         display: -ms-flexbox;
@@ -18,8 +18,8 @@
     }
 
     &__title{
-        font-size: 2.30rem;
-        line-height: 1.3;
+        font-size: 1.75rem;
+        line-height: 1.5;
         font-weight: $fw-lg;
         font-family: $headerFont;
         margin-bottom: 13px;
@@ -46,9 +46,7 @@
 
     @media only screen and (min-width:1000px) {
         .container {
-            // height: 100%;
             flex-direction:row-reverse;
-            // align-items: center;
         }
 
 
@@ -68,7 +66,7 @@
         }
 
           &__illustration{
-            width:1500px;
+            width:93.75rem;
           }
         
         

@@ -20,7 +20,7 @@
         &__title {
             color: var(--cyan-500);
             line-height: 1.5;
-            font-size: 2.997rem;
+            font-size:clamp(.50rem,8vw,2.997rem) ;
             font-weight: $fw-m;
             margin-bottom: .833rem;
         }
