@@ -39,10 +39,10 @@ img {
 }
 
 body {
-    min-height: 100lvh;
+    min-height: 100dvh;
     background: url(/src/images/bg-mobile.svg), var(--violet-100);
+    background-size: cover;
     background-repeat: no-repeat;
-    background-size: 100%;
     padding-inline: 15px;
     line-height: 1.2;
     color: var(--neutral-100);
@@ -50,8 +50,7 @@ body {
     font-family:$bodyFont, system-ui;
 
     @media only screen and (min-width:1000px){
-        background:url(/src/images/bg-desktop.svg),var(--violet-100);
-        background-position-y: top 50%;
+     background:url(/src/images/bg-desktop.svg),var(--violet-100);
     }
 }
 

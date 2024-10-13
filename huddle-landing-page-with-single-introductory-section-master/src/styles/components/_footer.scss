@@ -17,18 +17,16 @@
         margin-left: 15px;
 
 
-          @media only screen and (min-width:1000px){
-     &:hover,
-        &:focus {
+        @media only screen and (min-width:1000px){
+          &:hover,
+          &:focus {
           border-color:var(--softMagenta-100);
           color: var(--softMagenta-100);
           transition: $transition;
         }
-          }
-       
       }
-     
-    }
+      }
+      }
 
     &__end {
       margin-top: 10px;
